@@ -1,4 +1,3 @@
-using System.Net.Http.Json;
 using System.Text.Json;
 using F1RaceAnalytics.Models;
 
@@ -58,16 +57,34 @@ public class OpenF1Service
         return FetchAsync<Driver>(url);
     }
 
-    public Task<List<Position>> GetPositionsAsync(int sessionKey)
+    public Task<List<PositionData>> GetPositionsAsync(int sessionKey)
     {
         var url = $"position?session_key={sessionKey}";
-        return FetchAsync<Position>(url);
+        return FetchAsync<PositionData>(url);
     }
 
     public Task<List<Lap>> GetLapsAsync(int sessionKey)
     {
         var url = $"laps?session_key={sessionKey}";
         return FetchAsync<Lap>(url);
+    }
+
+    public Task<List<SessionResult>> GetSessionResultsAsync(int sessionKey)
+    {
+        var url = $"session_results?session_key={sessionKey}";
+        return FetchAsync<SessionResult>(url);
+    }
+
+    public Task<List<Stint>> GetStintsAsync(int sessionKey)
+    {
+        var url = $"stints?session_key={sessionKey}";
+        return FetchAsync<Stint>(url);
+    }
+
+    public Task<List<PitStop>> GetPitStopsAsync(int sessionKey)
+    {
+        var url = $"pit?session_key={sessionKey}";
+        return FetchAsync<PitStop>(url);
     }
 
     public async Task<Session?> GetSessionAsync(int sessionKey)

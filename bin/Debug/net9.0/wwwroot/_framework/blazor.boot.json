@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "F1RaceAnalytics",
   "resources": {
-    "hash": "sha256-PuXgqZEhFJeJeQK4v7p453aa6+ESIzB617iLFv9IyL8=",
+    "hash": "sha256-ThUoqoV4DfylFEH7wvG3pA0hne8MXGQ3gZCTQFKuzoo=",
     "fingerprinting": {
       "Blazor-ApexCharts.kem0c92the.wasm": "Blazor-ApexCharts.wasm",
       "Microsoft.AspNetCore.Authorization.50odlujk1g.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -206,8 +206,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "F1RaceAnalytics.nq6j7i5z6s.wasm": "F1RaceAnalytics.wasm",
-      "F1RaceAnalytics.ptxx4xqz60.pdb": "F1RaceAnalytics.pdb"
+      "F1RaceAnalytics.jbvp5cpxhd.wasm": "F1RaceAnalytics.wasm",
+      "F1RaceAnalytics.s30ybyudye.pdb": "F1RaceAnalytics.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.l4ptthxatg.js": "sha256-ddUN4+taa/Qv7Mr8mLpunJO+0Xw3ViOqBvedhe57/hA="
@@ -422,10 +422,10 @@
       "WindowsBase.ahs9krftg4.wasm": "sha256-bgi2FHdT0ABsUP1yKQQ2AP8qfo1V/bS/4cJFE4OUHX8=",
       "mscorlib.k5iaovx9v7.wasm": "sha256-mEFLDERlY1HMNQHzh68xOPawXvI48O1fHW9PbfXugb4=",
       "netstandard.6sr1qvn64m.wasm": "sha256-Gpf+qEqCYaCB6zqI5sNPIurnfpwRtfcWksgf3CW6mHE=",
-      "F1RaceAnalytics.nq6j7i5z6s.wasm": "sha256-36dk1ZITaRJARWyTzYu2a5B457JCTxqpDlRdbP6iZ7I="
+      "F1RaceAnalytics.jbvp5cpxhd.wasm": "sha256-zw925D7v7O5EUxXLaQqURYXmOmYSrLffVw0y9ny28ro="
     },
     "pdb": {
-      "F1RaceAnalytics.ptxx4xqz60.pdb": "sha256-fTHesBGzGlYSTp38tHtW/NuR3HSRR9lt7aqhcw5chYs="
+      "F1RaceAnalytics.s30ybyudye.pdb": "sha256-+Pdctaj5ID+LxLFnLasg5INSpXOUZLArIiPnHF4/KHI="
     }
   },
   "cacheBootResources": true,

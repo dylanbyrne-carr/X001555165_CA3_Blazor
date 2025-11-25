@@ -52,16 +52,16 @@
           "dependencies": {
             "Blazor-ApexCharts": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[4.0.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
