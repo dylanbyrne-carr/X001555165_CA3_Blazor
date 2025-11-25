@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "F1RaceAnalytics",
   "resources": {
-    "hash": "sha256-cjIynx5yGUDbs/i9eTHC64K3esQYtxXd6Vnuv9vlUvQ=",
+    "hash": "sha256-9VHzZr1Vlb5zk2xQ/G0F9JnHghLcP258woq3DFRSL/8=",
     "fingerprinting": {
       "Blazor-ApexCharts.tbcc6554pc.wasm": "Blazor-ApexCharts.wasm",
       "Microsoft.AspNetCore.Components.3p0mdcrc5o.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -44,7 +44,7 @@
       "System.Text.RegularExpressions.k8ibga7wut.wasm": "System.Text.RegularExpressions.wasm",
       "System.Threading.zndp5zq6yi.wasm": "System.Threading.wasm",
       "System.Private.CoreLib.r0v8jhmajp.wasm": "System.Private.CoreLib.wasm",
-      "F1RaceAnalytics.lqwbbuwq6x.wasm": "F1RaceAnalytics.wasm",
+      "F1RaceAnalytics.np9frbxrzt.wasm": "F1RaceAnalytics.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.noby4tlk4d.js": "dotnet.native.js",
       "dotnet.native.qe75a9vfqn.wasm": "dotnet.native.wasm",
@@ -111,7 +111,7 @@
       "System.Text.Json.pis82npmh8.wasm": "sha256-YVDBsC1P4WE+1/a5jPUmiRKMHREJgQUTSsekIsn/qn0=",
       "System.Text.RegularExpressions.k8ibga7wut.wasm": "sha256-7OYvLuFLvwbax++2u+uoDmoaX8o/Q8wcYJC92eP1YjA=",
       "System.Threading.zndp5zq6yi.wasm": "sha256-b8KNvdEOrhJ3zx8gnXhSsojEQmdEPIlQrzosXW30Rwg=",
-      "F1RaceAnalytics.lqwbbuwq6x.wasm": "sha256-fR3wT3mjMtoEO9EDBThV+sDqMfzBJi5Y/vVuarrqfvY="
+      "F1RaceAnalytics.np9frbxrzt.wasm": "sha256-FUozex2wL/WCf8Z0pcHoWcjxz9Ltjj5nQ4qc2gXXrzE="
     }
   },
   "cacheBootResources": true,
