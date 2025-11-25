@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("F1RaceAnalytics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2e65a6b77ca379c7524004659badc79680a5826")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aab9cb41b6902b11659349b5c54a77ba1c95f2e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("F1RaceAnalytics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("F1RaceAnalytics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
