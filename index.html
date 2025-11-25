@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Race Analytics</title>
+    <base href="/X001555165_CA3_Blazor/" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'f1-red': '#e10600',
+                        'f1-dark': '#15151e',
+                        'f1-gray': '#38383f'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="_content/Blazor-ApexCharts/apexcharts.css" rel="stylesheet" />
+    <script src="_content/Blazor-ApexCharts/apexcharts.min.js"></script>
+    <script src="_content/Blazor-ApexCharts/blazor-apexcharts.js"></script>
+</head>
+<body class="bg-f1-dark text-white">
+    <div id="app" class="h-screen">
+        <div class="flex items-center justify-center h-full">
+            <p class="text-xl">Loading...</p>
+        </div>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+</html>
