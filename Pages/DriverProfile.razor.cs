@@ -134,7 +134,11 @@ public partial class DriverProfile
 
                         StateHasChanged();
                     }
-                    catch
+                    catch (HttpRequestException)
+                    {
+                        continue;
+                    }
+                    catch (TaskCanceledException)
                     {
                         continue;
                     }
@@ -155,7 +159,15 @@ public partial class DriverProfile
                 StateHasChanged();
             }
         }
-        catch (Exception ex)
+        catch (HttpRequestException ex)
+        {
+            errorMessage = $"Error loading driver data: {ex.Message}";
+        }
+        catch (TaskCanceledException)
+        {
+            errorMessage = "Request timed out. Please try again.";
+        }
+        catch (InvalidOperationException ex)
         {
             errorMessage = $"Error loading driver data: {ex.Message}";
         }

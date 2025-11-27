@@ -166,7 +166,19 @@ public partial class RaceResults : ComponentBase
 
             lapTimesJson = JsonSerializer.Serialize(lapTimesData);
         }
-        catch (Exception ex)
+        catch (HttpRequestException ex)
+        {
+            errorMessage = $"Error loading race data: {ex.Message}";
+        }
+        catch (TaskCanceledException)
+        {
+            errorMessage = "Request timed out. Please try again.";
+        }
+        catch (JsonException ex)
+        {
+            errorMessage = $"Error processing race data: {ex.Message}";
+        }
+        catch (InvalidOperationException ex)
         {
             errorMessage = $"Error loading race data: {ex.Message}";
         }
@@ -176,7 +188,7 @@ public partial class RaceResults : ComponentBase
         }
     }
 
-    private string FormatLapTime(double seconds)
+    private static string FormatLapTime(double seconds)
     {
         var timeSpan = TimeSpan.FromSeconds(seconds);
         return $"{(int)timeSpan.TotalMinutes}:{timeSpan.Seconds:D2}.{timeSpan.Milliseconds:D3}";
@@ -227,7 +239,7 @@ public partial class RaceResults : ComponentBase
         return "";
     }
 
-    private int GetRacePoints(int position)
+    private static int GetRacePoints(int position)
     {
         return position switch
         {
